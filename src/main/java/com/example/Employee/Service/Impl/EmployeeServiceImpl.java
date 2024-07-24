@@ -33,6 +33,7 @@ public class EmployeeServiceImpl implements EmployeeService
         Employee emp = new Employee();
         if(employeeexists!=null)
         {
+            emp.setEmployeeId(employeeId);
             emp.setEmployeeName(employee.getEmployeeName());
             emp.setEmployeeRole(employee.getEmployeeRole());
             emp.setEmployeeDepartment(employee.getEmployeeDepartment());
