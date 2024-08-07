@@ -16,7 +16,7 @@ public class Employee
     private Long employeeId;
 
     @Column(name="Employee_Name")
-    private String employeeName;
+    private String employeeName1;
 
     @Column(name="Employee_Role")
     private String employeeRole;
